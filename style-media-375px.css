@@ -1,16 +1,84 @@
 @media screen and (max-width: 375px) {
-    .btn-cont{
-        flex-direction: column;
+    body{
+        background-image: url(images/bg-header-mobile.png);
     }
-    .heading{
-        font-size: 2rem;
-    }
-    .f-bottom{
-        flex-direction: column;
-        gap: 0;
-    }
-    .section{
-        flex-direction: column;
-    }
-        
+  .section,
+  .header,
+  .footer {
+    padding: 25px;
+  }
+  .header {
+    margin-bottom: 200px;
+  }
+  .btn-cont {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .btn{
+    width: 100%;
+  }
+  .heading {
+    font-size: 1.8rem;
+  }
+  .para {
+    font-size: 0.93rem;
+  }
+  .f-top h3 {
+    padding: 0 40px;
+    font-size: 1.5rem;
+  }
+  .f-right {
+    text-align: center;
+  }
+  .f-right div {
+    padding: 20px;
+  }
+  .f-right h3 {
+    font-size: 1.3rem;
+  }
+  .f-right p {
+    font-size: 0.92rem;
+  }
+  .f-bottom {
+    flex-direction: column;
+    gap: 0;
+  }
+  .section {
+    flex-direction: column;
+  }
+  .s-bottom {
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 60px;
+  }
+  .s-bottom h4 {
+    margin-top: 40px;
+  }
+  .section4 {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .footer {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .nav {
+    flex-direction: column;
+    gap: 9px;
+  }
+  .social {
+    justify-self: center;
+  }
+  .footer figure {
+    margin: 0 auto;
+  }
+  .section2 figure {
+    margin-top: 50px;
+  }
+  .navlink P{
+    margin: 35px 0 0 0;
+  }
+  .nav{
+    margin: 10px 0 50px 0;
+  }
 }

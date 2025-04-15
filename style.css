@@ -21,9 +21,10 @@ p {
   color: var(--Dark-Grayish-Blue);
 }
 body{
-    background: url(images/bg-header-desktop.png);
+    background-image: url(images/bg-header-desktop.png);
     background-repeat: no-repeat;
     background-size: 100% 300px;
+    background-position: top center;
 }
 .header,
 .f-top {
@@ -73,15 +74,15 @@ body{
   font-size: 1.8rem;
   margin-bottom: 15px;
 }
-.f-button {
+.f-bottom {
   display: flex;
   gap: 100px;
 }
-.f-button figure {
+.f-bottom figure {
   max-width: 700px;
   width: 100%;
 }
-.f-button figure img {
+.f-bottom figure img {
   width: 100%;
   height: auto;
 }
