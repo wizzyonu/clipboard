@@ -1,6 +1,8 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 478px) {
     body{
         background-image: url(images/bg-header-mobile.png);
+        width: 100%;
+        box-sizing: border-box;
     }
   .section,
   .header,
